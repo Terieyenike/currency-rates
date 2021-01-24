@@ -2,10 +2,6 @@ const express = require('express');
 const router = express.Router();
 const fetch = require('node-fetch');
 
-router.get('/', async (req, res) => {
-  res.send('<p>running exchange API rates service. Check its endpoint</p>');
-});
-
 router.get('/rates', async (req, res) => {
   const { currency, base } = req.query;
   try {

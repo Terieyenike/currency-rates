@@ -12,7 +12,7 @@ const resultsRoutes = require('./routes/api');
 app.use('/api', resultsRoutes);
 
 app.get('/', (req, res) => {
-  res.send('<h3>enye phase 1.2: backend. Currency rates API</h3>');
+  res.send('<p>Currency rates API. Use the /api/rates endpoint.</p>');
 });
 
 app.get('*', (req, res) => {
