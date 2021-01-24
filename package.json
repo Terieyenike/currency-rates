@@ -1,12 +1,16 @@
 {
   "name": "phase-1.2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Currency rates API",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js"
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "express",
+    "currency rates"
+  ],
   "author": "Teri Eyenike <teyenike1@gmail.com/> (https://terieyenike.github.io/v2)",
   "license": "MIT",
   "dependencies": {
